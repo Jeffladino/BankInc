@@ -1,0 +1,10 @@
+-------------------------------------
+Proceso de instalación Localhost
+
+-------------------------------------
+
+1) Tener instalado la versión de java 17
+2) Tener las variables de entorno apuntando al JDK en windows el path y java_home
+3) Cambiar el usuario, puerto y contraseña del archivo properties por el de la base de datos mysql actual. 
+4) abrir una ventana de consola como administrador e ir en la ruta del paquete  credibanco-app y ejecutar ./mvnw clean package para generar el jar
+5) ingresar a la carpeta target y ejecutar el .jar con el comando java -jar credibanco-app-0.0.1-SNAPSHOT.jar
